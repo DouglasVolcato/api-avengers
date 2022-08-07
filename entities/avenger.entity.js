@@ -42,7 +42,7 @@ function generateId(x = 1) {
 
   for (let n of av) {
     if (n.id == x) {
-      return generateId(num+=1);
+      return generateId((num += 1));
     }
   }
   return num;
